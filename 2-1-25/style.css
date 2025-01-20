@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    padding: 20px;
+
+}
+nav{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    counter-reset: #000;
+    transition: 0.s ease-in;
+    font-size: 18px;
+
+}
+nav ul :hover{
+    background-color:pink;
+    color: white;
+}
+/* img{
+    display:inline-block;
+    justify-content: center;
+    padding: 10px;
+    margin:20px;
+} */

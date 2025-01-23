@@ -1,0 +1,19 @@
+.container{
+    position: relative;
+    display: flex;
+justify-content: space-between;
+border: 2px solid white;
+padding-bottom: 0px;
+}
+
+.item {
+    justify-content: start;
+    color: white;
+    font-size:20px ;
+}
+.item1{
+    margin-right:240px;
+}
+.item4{
+    margin-left:240px;
+}
